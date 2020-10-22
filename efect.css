@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    color: white;
+    background-color: black;
+    height: 80px;
+    opacity: 0.8;
+}
+
+.header-left {
+    float: left;
+    padding-left: 30px;
+}
+
+.header-right {
+    padding-top: 15px;
+    padding-right: 30px;
+    float: right;
+}
+
+.header-right li {
+    font-size: 20px;
+    padding: 0 17px;
+    float: left;
+    list-style: none;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.top-wrapper-isi {
+    top: 0;
+    margin: 0 auto;
+}
+
+.top-wrapper-isi p {
+    color: white;
+    line-height: 53px;
+    text-align: center;
+    font-size: 31px;
+}
+
+.middle-wrapper {
+    height: 400px;
+}
+
+.title-middle {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title-middle h1 {
+    border-bottom: solid black 5px;
+}
+
+.middle {
+    width: 900px;
+    float: left;
+}
+
+.isi-stu {
+    font-size: 27px;
+    padding: 0 30px;
+    line-height: 27px;
+}
+
+.idku {
+    font-size: 27px;
+    margin-left: 30px;
+    line-height: 35px;
+}
+
+.idku span {
+    font-weight: bolder;
+}
+
+.foto {
+    float: right;
+    padding-right: 80px;
+}
+
+.foto h1 {
+    text-align: center;
+    border-bottom: solid black 5px;
+}
+
+.lessons-wrapper {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.contain {
+    height: 590px;
+    background-color:  #FF6666;
+    color: white;
+}
+
+.skill {
+    float: left;
+    width: 50%;
+}
+
+.skill-icon {
+    position: relative;
+}
+
+.skill-icon p {
+    color: black;
+    position: absolute;
+    font-size: 34px;
+    top: 150px;
+    width: 100%;
+}
+
+.txt-icon {
+    width: 80%;
+    display: inline-block;
+    font-size: 27px;
+}
+
+.warna-quote {
+    padding-top: 1px;
+    height: 570px;
+    background-color:#99FFCC;
+}
+
+.quote {
+    font-family: cursive;
+    font-size: 34px;
+    text-align: center;
+}
+
+.foto-aku {
+    font-size: 34px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.foto-aku img {
+    border-radius: 50%;
+}
+
+.belajar {
+    background-color: #BEF5A3;
+    height: max-content;
+    padding-top: 1px;
+}
+
+.belajar-link {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.belajar-link span {
+    font-weight: bolder;
+}
+
+.belajar-link stu {
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+
+.btn-wrapper a {
+    padding: 0 45px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    background-color: #33DDFF;
+    height: 500px;
+    padding-top: 1px;
+}
+
+.box-form {
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+    background-color: #40AABF;
+    height: 400px;
+    width: 700px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px 15px;
+}
+
+.contact-form {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.isi-1 {
+    padding-top: 14px;
+    text-align: center;
+    font-size: 31px;
+}
+
+input  {
+    position: relative;
+    width: 490px;
+    height: 40px;
+    border-radius: 5%;
+}
+
+textarea {
+    position: relative;
+    width: 490px;
+    height: 100px;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    background-color: #2f5167;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #2f5167;
+    height: 130px;
+    padding-bottom: 20px;
+}
+
+.footer-head {
+    padding-left: 30px;
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-right li {
+    list-style: none;
+}
+
+.footer-right a {
+    line-height: 34px;
+    color: white;
+    font-size: 24px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 7px 0;
+    text-decoration: none;
+}
